@@ -204,7 +204,7 @@ std::string PointerManager::PointerManagerImpl::readLocalXML()
 {
     std::string pathToFile;
 #if CEER_DEBUG
-    pathToFile = "C:\\Users\\mauri\\source\\repos\\CERandomiser\\CERandomiser\\CEERPointerData.xml";
+    pathToFile = "C:\\IMP\\CODE\\CEER\\CERandomiser\\CEERPointerData.xml"; 
 #else
     pathToFile = pointerDataLocation;
 #endif
